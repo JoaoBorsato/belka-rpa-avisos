@@ -1,0 +1,69 @@
+{
+  "execucao_id": "20261118-203240-532a",
+  "inicio": "2026-11-18T20:32:40-03:00",
+  "referencia_tempo": "2026-11-07T15:00:00-03:00",
+  "parametros": {
+    "fonte_local": "/tmp/tmpbjoffmk8/feed",
+    "estrito": false
+  },
+  "feed": {
+    "lido": true,
+    "itens": 10,
+    "itens_sem_guid": 0
+  },
+  "itens": {
+    "processado": 5,
+    "quarentena": 2,
+    "ignorado": 2,
+    "falha_download": 1
+  },
+  "decisoes": {
+    "nivel_1": 3,
+    "fora_da_area": 1,
+    "cancelado": 1,
+    "substituido": 1,
+    "nivel_2": 1
+  },
+  "comparacao": {
+    "disponivel": true,
+    "dia_belka": "2026-11-07",
+    "divergencias": 5,
+    "arquivo": "saida/divergencias.csv"
+  },
+  "publicacao": {
+    "publicado": true,
+    "arquivo": "saida/avisos_oficiais.json",
+    "municipios_com_aviso_vigente": 0,
+    "avisos_vigentes": 0,
+    "avisos_proximos": 1,
+    "divergencias_belka_abaixo": 0
+  },
+  "notificacoes": {},
+  "erro": null,
+  "base": {
+    "ativo": 2,
+    "cancelado": 1,
+    "substituido": 1
+  },
+  "fim": "2026-11-18T20:32:40-03:00",
+  "duracao_s": 0.63,
+  "status": "SUCESSO_COM_PENDENCIAS",
+  "pendencias": [
+    "aviso_cap: 55901 quarentena: XML inválido: no element found: line 1, column 35",
+    "aviso_cap: 55902 quarentena: severidade não reconhecida (severity='Unknown', cor='#123456')",
+    "aviso_cap: 55910 CAP 55910: 3 tentativas sem sucesso (FileNotFoundError) · nova tentativa na próxima execução"
+  ],
+  "avisos_de_qualidade": [
+    "fonte: CAP 55910 tentativa 1/3 falhou: FileNotFoundError: cap/55910.xml não encontrado",
+    "fonte: CAP 55910 tentativa 2/3 falhou: FileNotFoundError: cap/55910.xml não encontrado",
+    "fonte: CAP 55910 tentativa 3/3 falhou: FileNotFoundError: cap/55910.xml não encontrado"
+  ],
+  "eventos": {
+    "ok": 9,
+    "pendencia": 3,
+    "ignorado": 2,
+    "decisao": 2,
+    "aviso": 3
+  },
+  "log": "logs/belka_avisos_20261118-203240-532a.log"
+}

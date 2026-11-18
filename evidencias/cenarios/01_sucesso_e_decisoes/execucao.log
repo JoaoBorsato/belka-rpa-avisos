@@ -1,0 +1,19 @@
+2026-11-18 20:32:39-0300 | INFO    | inicio       | ok        | 20261118-203239-df7f | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
+2026-11-18 20:32:39-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: cópia local feed
+2026-11-18 20:32:39-0300 | INFO    | feed         | ok        | - | 10 aviso(s) no feed
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55880 | Acumulado de Chuva · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Franco da Rocha, Guarulhos, São Paulo · expirado
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55901 | Tempestade · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Campinas, Franco da Rocha, Guarulhos, São Paulo · vigente
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55902 | Chuvas Intensas · Perigo -> Prepare-se (severity+cor+titulo) · São Sebastião · vigente
+2026-11-18 20:32:39-0300 | INFO    | decisao      | ignorado  | 55903 | Baixa Umidade: nenhum município piloto atingido (codigo_ibge)
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55905 | Vendaval · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Franco da Rocha, Guarulhos · proximo
+2026-11-18 20:32:39-0300 | INFO    | decisao      | decisao   | 55906 | urn:oid:2.49.0.0.76.0.2026.55905.1 -> cancelado
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55907 | Onda de Calor · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Campinas · proximo
+2026-11-18 20:32:39-0300 | INFO    | decisao      | decisao   | 55908 | urn:oid:2.49.0.0.76.0.2026.55907.1 -> substituido
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55908 | Onda de Calor · Perigo -> Prepare-se (severity+cor+titulo) · Campinas · proximo
+2026-11-18 20:32:39-0300 | INFO    | decisao      | ignorado  | 55909 | status Exercise: não é aviso real
+2026-11-18 20:32:39-0300 | INFO    | aviso_cap    | ok        | 55910 | Acumulado de Chuva · Grande Perigo -> Aja agora (severity+cor+titulo) · São Sebastião · proximo
+2026-11-18 20:32:39-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_abaixo: 1, concorda: 4
+2026-11-18 20:32:39-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 2 vigente(s), 2 próximo(s) · 5 município(s) com aviso agora
+2026-11-18 20:32:39-0300 | WARNING | divergencia  | aviso     | São Sebastião | Belka Fique de olho x INMET Prepare-se em 2026-11-07: revisar limiares
+2026-11-18 20:32:39-0300 | INFO    | notificacao  | decisao   | urn:oid:2.49.0.0.76.0.2026.55910.1 | aviso grave sem canal configurado: Belka · aviso oficial Grande Perigo (Acumulado de Chuva) em São Sebastião: 2026-11-09T00:00:00-03:00 a 2026-11-10T12:00:00-03:00
+2026-11-18 20:32:39-0300 | INFO    | fim          | ok        | 20261118-203239-df7f | status SUCESSO · itens {'processado': 8, 'ignorado': 2} · 0 pendência(s) · 0.03 s

@@ -1,0 +1,62 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.18, pytest-9.1.1, pluggy-1.6.0 -- /usr/local/bin/python3
+cachedir: .pytest_cache
+rootdir: belka-rpa-avisos
+configfile: pyproject.toml
+testpaths: tests
+plugins: platformdirs-4.13.5, anyio-4.15.1
+collecting ... collected 51 items
+
+tests/test_cap_regras.py::test_rss_extrai_guid_e_ordena_do_mais_antigo PASSED [  1%]
+tests/test_cap_regras.py::test_rss_item_sem_guid_e_descartado_e_contado PASSED [  3%]
+tests/test_cap_regras.py::test_rss_invalido[] PASSED                     [  5%]
+tests/test_cap_regras.py::test_rss_invalido[<rss><channel><item>] PASSED [  7%]
+tests/test_cap_regras.py::test_rss_invalido[<html><body>manuten\xe7\xe3o</body></html>] PASSED [  9%]
+tests/test_cap_regras.py::test_rss_invalido[<?xml version="1.0"?><rss version="2.0"><channel><title>Avisos</title></channel></rss>] PASSED [ 11%]
+tests/test_cap_regras.py::test_cap_le_campos_municipios_e_mesorregioes PASSED [ 13%]
+tests/test_cap_regras.py::test_cap_entrada_de_municipio_fora_do_padrao_e_contada PASSED [ 15%]
+tests/test_cap_regras.py::test_cap_referencias_no_formato_cap PASSED     [ 17%]
+tests/test_cap_regras.py::test_cap_invalido[troca0-obrigat\xf3rio] PASSED [ 19%]
+tests/test_cap_regras.py::test_cap_invalido[troca1-posterior] PASSED     [ 21%]
+tests/test_cap_regras.py::test_cap_invalido[troca2-fuso] PASSED          [ 23%]
+tests/test_cap_regras.py::test_cap_invalido[troca3-data inv\xe1lida] PASSED [ 25%]
+tests/test_cap_regras.py::test_cap_invalido[troca4-XML inv\xe1lido] PASSED [ 27%]
+tests/test_cap_regras.py::test_cap_com_entidade_externa_e_recusado PASSED [ 29%]
+tests/test_cap_regras.py::test_severidade_vira_nivel_belka[Moderate-1] PASSED [ 31%]
+tests/test_cap_regras.py::test_severidade_vira_nivel_belka[Severe-2] PASSED [ 33%]
+tests/test_cap_regras.py::test_severidade_vira_nivel_belka[Extreme-3] PASSED [ 35%]
+tests/test_cap_regras.py::test_sinais_em_conflito_usa_o_mais_grave PASSED [ 37%]
+tests/test_cap_regras.py::test_so_a_cor_ja_basta PASSED                  [ 39%]
+tests/test_cap_regras.py::test_sem_nenhum_sinal_de_severidade_e_invalido PASSED [ 41%]
+tests/test_cap_regras.py::test_evento_para_riscos PASSED                 [ 43%]
+tests/test_cap_regras.py::test_area_por_codigo_ibge_e_por_mesorregiao PASSED [ 45%]
+tests/test_cap_regras.py::test_situacao[2026-11-06T12:00:00-03:00-proximo] PASSED [ 47%]
+tests/test_cap_regras.py::test_situacao[2026-11-07T10:00:00-03:00-vigente] PASSED [ 49%]
+tests/test_cap_regras.py::test_situacao[2026-11-08T10:00:00-03:00-expirado] PASSED [ 50%]
+tests/test_cap_regras.py::test_situacao[2026-11-01T10:00:00-03:00-fora_do_horizonte] PASSED [ 52%]
+tests/test_cap_regras.py::test_comparar PASSED                           [ 54%]
+tests/test_cap_regras.py::test_log_nao_expoe_dados_sensiveis PASSED      [ 56%]
+tests/test_robo.py::test_sucesso_publica_avisos_por_municipio_para_o_mvp PASSED [ 58%]
+tests/test_robo.py::test_segunda_execucao_nao_duplica_nada PASSED        [ 60%]
+tests/test_robo.py::test_trilha_de_auditoria_e_relatorio PASSED          [ 62%]
+tests/test_robo.py::test_le_o_feed_pela_internet_com_rede_simulada PASSED [ 64%]
+tests/test_robo.py::test_cancelamento_tira_o_aviso_do_mvp PASSED         [ 66%]
+tests/test_robo.py::test_atualizacao_substitui_o_aviso_anterior PASSED   [ 68%]
+tests/test_robo.py::test_exercicio_e_area_fora_do_piloto_sao_ignorados PASSED [ 70%]
+tests/test_robo.py::test_comparacao_aponta_onde_a_belka_ficou_abaixo PASSED [ 72%]
+tests/test_robo.py::test_aviso_expirado_fica_no_historico_mas_nao_aparece_agora PASSED [ 74%]
+tests/test_robo.py::test_cancelamento_que_chega_antes_do_aviso_original PASSED [ 76%]
+tests/test_robo.py::test_mesmo_aviso_em_dois_itens_do_feed_nao_duplica PASSED [ 78%]
+tests/test_robo.py::test_cap_sem_lista_de_municipios_usa_a_mesorregiao PASSED [ 80%]
+tests/test_robo.py::test_aviso_grave_notifica_a_equipe_uma_vez_so PASSED [ 82%]
+tests/test_robo.py::test_feed_fora_do_ar_sem_base_falha_e_nao_publica PASSED [ 84%]
+tests/test_robo.py::test_feed_fora_do_ar_com_base_publica_marcando_desatualizado PASSED [ 86%]
+tests/test_robo.py::test_feed_volta_na_terceira_tentativa PASSED         [ 88%]
+tests/test_robo.py::test_falha_ao_baixar_um_cap_vira_pendencia_e_e_refeita PASSED [ 90%]
+tests/test_robo.py::test_cap_corrompido_e_sem_severidade_vao_para_quarentena PASSED [ 92%]
+tests/test_robo.py::test_sem_snapshot_da_belka_publica_sem_comparacao PASSED [ 94%]
+tests/test_robo.py::test_comparacao_sem_historico_do_dia_nao_inventa_resultado PASSED [ 96%]
+tests/test_robo.py::test_configuracao_invalida_falha_com_log PASSED      [ 98%]
+tests/test_robo.py::test_falha_mantem_o_arquivo_anterior_do_mvp PASSED   [100%]
+
+============================== 51 passed in 0.84s ==============================

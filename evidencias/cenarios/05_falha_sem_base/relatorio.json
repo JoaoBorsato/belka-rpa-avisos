@@ -1,0 +1,36 @@
+{
+  "execucao_id": "20261118-203240-41dc",
+  "inicio": "2026-11-18T20:32:40-03:00",
+  "referencia_tempo": "2026-11-07T15:00:00-03:00",
+  "parametros": {
+    "fonte_local": null,
+    "estrito": false
+  },
+  "feed": {
+    "lido": false,
+    "motivo": "feed INMET: 3 tentativas sem sucesso (ConnectionError)"
+  },
+  "itens": {},
+  "decisoes": {},
+  "comparacao": {},
+  "publicacao": {},
+  "notificacoes": {},
+  "erro": "feed indisponível e nenhuma leitura anterior para usar: feed INMET: 3 tentativas sem sucesso (ConnectionError)",
+  "fim": "2026-11-18T20:32:41-03:00",
+  "duracao_s": 0.61,
+  "status": "FALHA",
+  "pendencias": [
+    "fim: - feed indisponível e nenhuma leitura anterior para usar: feed INMET: 3 tentativas sem sucesso (ConnectionError)"
+  ],
+  "avisos_de_qualidade": [
+    "fonte: feed INMET tentativa 1/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar",
+    "fonte: feed INMET tentativa 2/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar",
+    "fonte: feed INMET tentativa 3/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar"
+  ],
+  "eventos": {
+    "ok": 2,
+    "aviso": 3,
+    "erro": 1
+  },
+  "log": "logs/belka_avisos_20261118-203240-41dc.log"
+}

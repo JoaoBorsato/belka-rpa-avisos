@@ -1,0 +1,54 @@
+{
+  "_comentario": "Configuração do robô de avisos oficiais da Belka. Regras de negócio ficam aqui, fora do código, para a equipe ajustar sem programar.",
+  "fonte": {
+    "feed_url": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+    "nome": "INMET · Avisos meteorológicos (CAP 1.2)"
+  },
+  "rede": {
+    "tentativas": 3,
+    "espera_inicial_s": 2,
+    "timeout_s": 30
+  },
+  "municipios_piloto": [
+    {"ibge": 3550308, "nome": "São Paulo", "uf": "SP", "mesorregiao": "Metropolitana de São Paulo"},
+    {"ibge": 3518800, "nome": "Guarulhos", "uf": "SP", "mesorregiao": "Metropolitana de São Paulo"},
+    {"ibge": 3516408, "nome": "Franco da Rocha", "uf": "SP", "mesorregiao": "Metropolitana de São Paulo"},
+    {"ibge": 3509502, "nome": "Campinas", "uf": "SP", "mesorregiao": "Campinas"},
+    {"ibge": 3550704, "nome": "São Sebastião", "uf": "SP", "mesorregiao": "Vale do Paraíba Paulista"}
+  ],
+  "severidade_para_nivel": {
+    "Minor": 1,
+    "Moderate": 1,
+    "Severe": 2,
+    "Extreme": 3
+  },
+  "cor_para_nivel": {
+    "#FFFE00": 1,
+    "#FFFF00": 1,
+    "#FFA500": 2,
+    "#FB9C00": 2,
+    "#FF0000": 3
+  },
+  "grau_para_nivel": {
+    "perigo potencial": 1,
+    "perigo": 2,
+    "grande perigo": 3
+  },
+  "evento_para_riscos": {
+    "Tempestade": ["enchente", "vento forte"],
+    "Chuvas Intensas": ["enchente", "deslizamento"],
+    "Acumulado de Chuva": ["enchente", "deslizamento"],
+    "Vendaval": ["vento forte"],
+    "Ventos Costeiros": ["vento forte"],
+    "Baixa Umidade": ["tempo seco"],
+    "Onda de Calor": ["calor extremo"]
+  },
+  "horizonte_proximos_dias": 3,
+  "notificar_nivel_minimo": 3,
+  "entrada_belka_mvp": "entrada/belka_mvp.json",
+  "pastas": {
+    "saida": "saida",
+    "quarentena": "saida/quarentena",
+    "logs": "logs"
+  }
+}

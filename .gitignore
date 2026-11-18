@@ -1,0 +1,17 @@
+# segredos
+.env
+
+# gerados a cada execução do robô
+saida/
+logs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# editor / SO
+.vscode/
+.idea/
+.DS_Store

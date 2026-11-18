@@ -1,0 +1,305 @@
+{
+  "versao_contrato": "1.0",
+  "gerado_em": "2026-11-18T20:32:39-03:00",
+  "gerado_por": "belka-rpa-avisos",
+  "execucao_id": "20261118-203239-df7f",
+  "referencia_tempo": "2026-11-07T15:00:00-03:00",
+  "fonte": {
+    "nome": "INMET · Avisos meteorológicos (CAP 1.2)",
+    "url": "https://apiprevmet3.inmet.gov.br/avisos/rss",
+    "lida_nesta_execucao": true,
+    "ultima_leitura_ok": "2026-11-18T20:32:39-03:00",
+    "desatualizada": false
+  },
+  "aviso_legal": "Avisos meteorológicos oficiais do INMET, reproduzidos sem alteração de conteúdo. Em situação de risco siga a Defesa Civil (199) e o Corpo de Bombeiros (193).",
+  "niveis": [
+    {
+      "nivel_id": 0,
+      "nivel_nome": "Sem alerta",
+      "grau_inmet": "sem aviso"
+    },
+    {
+      "nivel_id": 1,
+      "nivel_nome": "Fique de olho",
+      "grau_inmet": "Perigo Potencial"
+    },
+    {
+      "nivel_id": 2,
+      "nivel_nome": "Prepare-se",
+      "grau_inmet": "Perigo"
+    },
+    {
+      "nivel_id": 3,
+      "nivel_nome": "Aja agora",
+      "grau_inmet": "Grande Perigo"
+    }
+  ],
+  "municipios": [
+    {
+      "municipio_id": 3550308,
+      "municipio_nome": "São Paulo",
+      "uf": "SP",
+      "nivel_oficial_agora": 1,
+      "nivel_nome": "Fique de olho",
+      "grau_inmet": "Perigo Potencial",
+      "avisos_vigentes": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55901.1",
+          "evento": "Tempestade",
+          "situacao": "vigente",
+          "nivel_id": 1,
+          "nivel_nome": "Fique de olho",
+          "grau_inmet": "Perigo Potencial",
+          "riscos": [
+            "enchente",
+            "vento forte"
+          ],
+          "inicio": "2026-11-07T00:00:00-03:00",
+          "fim": "2026-11-07T23:59:00-03:00",
+          "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+          "descricao": "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h) e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55901",
+          "criterio_area": "codigo_ibge"
+        }
+      ],
+      "proximos_avisos": []
+    },
+    {
+      "municipio_id": 3518800,
+      "municipio_nome": "Guarulhos",
+      "uf": "SP",
+      "nivel_oficial_agora": 1,
+      "nivel_nome": "Fique de olho",
+      "grau_inmet": "Perigo Potencial",
+      "avisos_vigentes": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55901.1",
+          "evento": "Tempestade",
+          "situacao": "vigente",
+          "nivel_id": 1,
+          "nivel_nome": "Fique de olho",
+          "grau_inmet": "Perigo Potencial",
+          "riscos": [
+            "enchente",
+            "vento forte"
+          ],
+          "inicio": "2026-11-07T00:00:00-03:00",
+          "fim": "2026-11-07T23:59:00-03:00",
+          "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+          "descricao": "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h) e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55901",
+          "criterio_area": "codigo_ibge"
+        }
+      ],
+      "proximos_avisos": []
+    },
+    {
+      "municipio_id": 3516408,
+      "municipio_nome": "Franco da Rocha",
+      "uf": "SP",
+      "nivel_oficial_agora": 1,
+      "nivel_nome": "Fique de olho",
+      "grau_inmet": "Perigo Potencial",
+      "avisos_vigentes": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55901.1",
+          "evento": "Tempestade",
+          "situacao": "vigente",
+          "nivel_id": 1,
+          "nivel_nome": "Fique de olho",
+          "grau_inmet": "Perigo Potencial",
+          "riscos": [
+            "enchente",
+            "vento forte"
+          ],
+          "inicio": "2026-11-07T00:00:00-03:00",
+          "fim": "2026-11-07T23:59:00-03:00",
+          "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+          "descricao": "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h) e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55901",
+          "criterio_area": "codigo_ibge"
+        }
+      ],
+      "proximos_avisos": []
+    },
+    {
+      "municipio_id": 3509502,
+      "municipio_nome": "Campinas",
+      "uf": "SP",
+      "nivel_oficial_agora": 1,
+      "nivel_nome": "Fique de olho",
+      "grau_inmet": "Perigo Potencial",
+      "avisos_vigentes": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55901.1",
+          "evento": "Tempestade",
+          "situacao": "vigente",
+          "nivel_id": 1,
+          "nivel_nome": "Fique de olho",
+          "grau_inmet": "Perigo Potencial",
+          "riscos": [
+            "enchente",
+            "vento forte"
+          ],
+          "inicio": "2026-11-07T00:00:00-03:00",
+          "fim": "2026-11-07T23:59:00-03:00",
+          "titulo": "Aviso de Tempestade. Severidade Grau: Perigo Potencial",
+          "descricao": "Chuva entre 20 e 30 mm/h ou até 50 mm/dia, ventos intensos (40-60 km/h) e queda de granizo. Baixo risco de corte de energia elétrica, estragos em plantações, queda de galhos de árvores e de alagamentos.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55901",
+          "criterio_area": "codigo_ibge"
+        }
+      ],
+      "proximos_avisos": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55908.1",
+          "evento": "Onda de Calor",
+          "situacao": "proximo",
+          "nivel_id": 2,
+          "nivel_nome": "Prepare-se",
+          "grau_inmet": "Perigo",
+          "riscos": [
+            "calor extremo"
+          ],
+          "inicio": "2026-11-08T10:00:00-03:00",
+          "fim": "2026-11-10T18:00:00-03:00",
+          "titulo": "Aviso de Onda de Calor. Severidade Grau: Perigo",
+          "descricao": "Temperatura 5 °C acima da média por um período de 2 a 3 dias. Baixo risco à saúde.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55908",
+          "criterio_area": "codigo_ibge"
+        }
+      ]
+    },
+    {
+      "municipio_id": 3550704,
+      "municipio_nome": "São Sebastião",
+      "uf": "SP",
+      "nivel_oficial_agora": 2,
+      "nivel_nome": "Prepare-se",
+      "grau_inmet": "Perigo",
+      "avisos_vigentes": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55902.1",
+          "evento": "Chuvas Intensas",
+          "situacao": "vigente",
+          "nivel_id": 2,
+          "nivel_nome": "Prepare-se",
+          "grau_inmet": "Perigo",
+          "riscos": [
+            "enchente",
+            "deslizamento"
+          ],
+          "inicio": "2026-11-07T09:00:00-03:00",
+          "fim": "2026-11-08T09:00:00-03:00",
+          "titulo": "Aviso de Chuvas Intensas. Severidade Grau: Perigo",
+          "descricao": "Chuva entre 30 e 60 mm/h ou 50 e 100 mm/dia. Risco de corte de energia elétrica, estragos em plantações, queda de árvores e de alagamentos.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55902",
+          "criterio_area": "codigo_ibge"
+        }
+      ],
+      "proximos_avisos": [
+        {
+          "identifier": "urn:oid:2.49.0.0.76.0.2026.55910.1",
+          "evento": "Acumulado de Chuva",
+          "situacao": "proximo",
+          "nivel_id": 3,
+          "nivel_nome": "Aja agora",
+          "grau_inmet": "Grande Perigo",
+          "riscos": [
+            "enchente",
+            "deslizamento"
+          ],
+          "inicio": "2026-11-09T00:00:00-03:00",
+          "fim": "2026-11-10T12:00:00-03:00",
+          "titulo": "Aviso de Acumulado de Chuva. Severidade Grau: Grande Perigo",
+          "descricao": "Acumulado de chuva acima de 100 mm/dia. Grande risco de alagamentos, deslizamentos de encostas e transbordamento de rios.",
+          "instrucao": "Em caso de rajadas de vento: não se abrigue debaixo de árvores. Evite enfrentar o mau tempo. Obtenha mais informações junto à Defesa Civil (telefone 199) e ao Corpo de Bombeiros (telefone 193).",
+          "link": "https://alertas2.inmet.gov.br/55910",
+          "criterio_area": "codigo_ibge"
+        }
+      ]
+    }
+  ],
+  "comparacao_belka": {
+    "disponivel": true,
+    "dia_belka": "2026-11-07",
+    "municipios": [
+      {
+        "municipio_id": 3550308,
+        "municipio_nome": "São Paulo",
+        "nivel_oficial": 1,
+        "nivel_oficial_nome": "Fique de olho",
+        "nivel_belka": 1,
+        "nivel_belka_nome": "Fique de olho",
+        "risco_principal_belka": "vento forte",
+        "resultado": "concorda",
+        "avisos": [
+          "urn:oid:2.49.0.0.76.0.2026.55901.1"
+        ]
+      },
+      {
+        "municipio_id": 3518800,
+        "municipio_nome": "Guarulhos",
+        "nivel_oficial": 1,
+        "nivel_oficial_nome": "Fique de olho",
+        "nivel_belka": 1,
+        "nivel_belka_nome": "Fique de olho",
+        "risco_principal_belka": "vento forte",
+        "resultado": "concorda",
+        "avisos": [
+          "urn:oid:2.49.0.0.76.0.2026.55901.1"
+        ]
+      },
+      {
+        "municipio_id": 3516408,
+        "municipio_nome": "Franco da Rocha",
+        "nivel_oficial": 1,
+        "nivel_oficial_nome": "Fique de olho",
+        "nivel_belka": 1,
+        "nivel_belka_nome": "Fique de olho",
+        "risco_principal_belka": "vento forte",
+        "resultado": "concorda",
+        "avisos": [
+          "urn:oid:2.49.0.0.76.0.2026.55901.1"
+        ]
+      },
+      {
+        "municipio_id": 3509502,
+        "municipio_nome": "Campinas",
+        "nivel_oficial": 1,
+        "nivel_oficial_nome": "Fique de olho",
+        "nivel_belka": 1,
+        "nivel_belka_nome": "Fique de olho",
+        "risco_principal_belka": "vento forte",
+        "resultado": "concorda",
+        "avisos": [
+          "urn:oid:2.49.0.0.76.0.2026.55901.1"
+        ]
+      },
+      {
+        "municipio_id": 3550704,
+        "municipio_nome": "São Sebastião",
+        "nivel_oficial": 2,
+        "nivel_oficial_nome": "Prepare-se",
+        "nivel_belka": 1,
+        "nivel_belka_nome": "Fique de olho",
+        "risco_principal_belka": "vento forte",
+        "resultado": "belka_abaixo",
+        "avisos": [
+          "urn:oid:2.49.0.0.76.0.2026.55902.1"
+        ]
+      }
+    ]
+  },
+  "resumo": {
+    "municipios_com_aviso_vigente": 5,
+    "avisos_vigentes": 2,
+    "avisos_proximos": 2,
+    "divergencias_belka_abaixo": 1
+  }
+}

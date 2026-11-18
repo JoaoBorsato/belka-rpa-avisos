@@ -1,0 +1,10 @@
+[project]
+name = "belka-rpa-avisos"
+version = "1.0.0"
+description = "Belka · robô RPA que traz os avisos oficiais do INMET para o MVP e compara com o nível calculado pela Belka"
+requires-python = ">=3.10"
+dependencies = ["requests>=2.31", "defusedxml>=0.7"]
+
+[tool.pytest.ini_options]
+pythonpath = ["."]
+testpaths = ["tests"]

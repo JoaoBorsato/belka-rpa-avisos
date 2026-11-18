@@ -1,0 +1,63 @@
+{
+  "execucao_id": "20261118-203239-df7f",
+  "inicio": "2026-11-18T20:32:39-03:00",
+  "referencia_tempo": "2026-11-07T15:00:00-03:00",
+  "parametros": {
+    "fonte_local": "/tmp/tmpx1i_tsni/feed",
+    "estrito": false
+  },
+  "feed": {
+    "lido": true,
+    "itens": 10,
+    "itens_sem_guid": 0
+  },
+  "itens": {
+    "processado": 8,
+    "ignorado": 2
+  },
+  "decisoes": {
+    "nivel_1": 4,
+    "nivel_2": 2,
+    "fora_da_area": 1,
+    "cancelado": 1,
+    "substituido": 1,
+    "nivel_3": 1
+  },
+  "comparacao": {
+    "disponivel": true,
+    "dia_belka": "2026-11-07",
+    "divergencias": 1,
+    "arquivo": "saida/divergencias.csv"
+  },
+  "publicacao": {
+    "publicado": true,
+    "arquivo": "saida/avisos_oficiais.json",
+    "municipios_com_aviso_vigente": 5,
+    "avisos_vigentes": 2,
+    "avisos_proximos": 2,
+    "divergencias_belka_abaixo": 1
+  },
+  "notificacoes": {
+    "sem_canal": 1
+  },
+  "erro": null,
+  "base": {
+    "ativo": 5,
+    "cancelado": 1,
+    "substituido": 1
+  },
+  "fim": "2026-11-18T20:32:39-03:00",
+  "duracao_s": 0.03,
+  "status": "SUCESSO",
+  "pendencias": [],
+  "avisos_de_qualidade": [
+    "divergencia: São Sebastião Belka Fique de olho x INMET Prepare-se em 2026-11-07: revisar limiares"
+  ],
+  "eventos": {
+    "ok": 12,
+    "ignorado": 2,
+    "decisao": 3,
+    "aviso": 1
+  },
+  "log": "logs/belka_avisos_20261118-203239-df7f.log"
+}
