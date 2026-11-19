@@ -1,0 +1,10 @@
+Fontes usadas por docs/gerar_documentacao.py para montar o PDF da documentação.
+
+DejaVuSans.ttf, DejaVuSans-Bold.ttf, DejaVuSansMono.ttf
+  DejaVu Fonts, licença livre derivada da Bitstream Vera (https://dejavu-fonts.github.io/License.html)
+
+Poppins-Bold.ttf
+  Poppins, Indian Type Foundry, SIL Open Font License 1.1 (https://openfontlicense.org)
+
+As fontes da marca Belka (Space Grotesk e Atkinson Hyperlegible) podem substituir estas se forem
+colocadas nesta pasta com os mesmos nomes de arquivo.

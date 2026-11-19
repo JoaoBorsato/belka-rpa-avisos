@@ -59,4 +59,4 @@ tests/test_robo.py::test_comparacao_sem_historico_do_dia_nao_inventa_resultado P
 tests/test_robo.py::test_configuracao_invalida_falha_com_log PASSED      [ 98%]
 tests/test_robo.py::test_falha_mantem_o_arquivo_anterior_do_mvp PASSED   [100%]
 
-============================== 51 passed in 0.84s ==============================
+============================== 51 passed in 0.88s ==============================

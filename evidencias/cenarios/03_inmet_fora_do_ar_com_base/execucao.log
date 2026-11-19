@@ -1,11 +1,11 @@
-2026-11-18 20:32:39-0300 | INFO    | inicio       | ok        | 20261118-203239-f2d7 | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
-2026-11-18 20:32:39-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: https://apiprevmet3.inmet.gov.br/avisos/rss
-2026-11-18 20:32:39-0300 | WARNING | fonte        | aviso     | feed INMET | tentativa 1/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar
-2026-11-18 20:32:39-0300 | WARNING | fonte        | aviso     | feed INMET | tentativa 2/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar
-2026-11-18 20:32:40-0300 | WARNING | fonte        | aviso     | feed INMET | tentativa 3/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar
-2026-11-18 20:32:40-0300 | WARNING | feed         | pendencia | - | feed INMET: 3 tentativas sem sucesso (ConnectionError) · publicando a partir da base de 2026-11-18T20:32:39-03:00 (fonte marcada como desatualizada)
-2026-11-18 20:32:40-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_abaixo: 1, concorda: 4
-2026-11-18 20:32:40-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 2 vigente(s), 2 próximo(s) · 5 município(s) com aviso agora
-2026-11-18 20:32:40-0300 | WARNING | divergencia  | aviso     | São Sebastião | Belka Fique de olho x INMET Prepare-se em 2026-11-07: revisar limiares
-2026-11-18 20:32:40-0300 | INFO    | notificacao  | decisao   | urn:oid:2.49.0.0.76.0.2026.55910.1 | aviso grave sem canal configurado: Belka · aviso oficial Grande Perigo (Acumulado de Chuva) em São Sebastião: 2026-11-09T00:00:00-03:00 a 2026-11-10T12:00:00-03:00
-2026-11-18 20:32:40-0300 | INFO    | fim          | ok        | 20261118-203239-f2d7 | status SUCESSO_COM_PENDENCIAS · itens {} · 1 pendência(s) · 0.6 s
+2026-11-19 01:28:41-0300 | INFO    | inicio       | ok        | 20261119-012841-8624 | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
+2026-11-19 01:28:41-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: https://apiprevmet3.inmet.gov.br/avisos/rss
+2026-11-19 01:28:41-0300 | WARNING | fonte        | aviso     | feed INMET | tentativa 1/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar
+2026-11-19 01:28:41-0300 | WARNING | fonte        | aviso     | feed INMET | tentativa 2/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar
+2026-11-19 01:28:42-0300 | WARNING | fonte        | aviso     | feed INMET | tentativa 3/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar
+2026-11-19 01:28:42-0300 | WARNING | feed         | pendencia | - | feed INMET: 3 tentativas sem sucesso (ConnectionError) · publicando a partir da base de 2026-11-19T01:28:41-03:00 (fonte marcada como desatualizada)
+2026-11-19 01:28:42-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_abaixo: 1, concorda: 4
+2026-11-19 01:28:42-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 2 vigente(s), 2 próximo(s) · 5 município(s) com aviso agora
+2026-11-19 01:28:42-0300 | WARNING | divergencia  | aviso     | São Sebastião | Belka Fique de olho x INMET Prepare-se em 2026-11-07: revisar limiares
+2026-11-19 01:28:42-0300 | INFO    | notificacao  | decisao   | urn:oid:2.49.0.0.76.0.2026.55910.1 | aviso grave sem canal configurado: Belka · aviso oficial Grande Perigo (Acumulado de Chuva) em São Sebastião: 2026-11-09T00:00:00-03:00 a 2026-11-10T12:00:00-03:00
+2026-11-19 01:28:42-0300 | INFO    | fim          | ok        | 20261119-012841-8624 | status SUCESSO_COM_PENDENCIAS · itens {} · 1 pendência(s) · 0.6 s

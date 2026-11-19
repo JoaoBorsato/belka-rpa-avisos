@@ -1,14 +1,14 @@
 {
   "versao_contrato": "1.0",
-  "gerado_em": "2026-11-18T20:32:40-03:00",
+  "gerado_em": "2026-11-19T01:28:42-03:00",
   "gerado_por": "belka-rpa-avisos",
-  "execucao_id": "20261118-203239-f2d7",
+  "execucao_id": "20261119-012841-8624",
   "referencia_tempo": "2026-11-07T15:00:00-03:00",
   "fonte": {
     "nome": "INMET · Avisos meteorológicos (CAP 1.2)",
     "url": "https://apiprevmet3.inmet.gov.br/avisos/rss",
     "lida_nesta_execucao": false,
-    "ultima_leitura_ok": "2026-11-18T20:32:39-03:00",
+    "ultima_leitura_ok": "2026-11-19T01:28:41-03:00",
     "desatualizada": true
   },
   "aviso_legal": "Avisos meteorológicos oficiais do INMET, reproduzidos sem alteração de conteúdo. Em situação de risco siga a Defesa Civil (199) e o Corpo de Bombeiros (193).",

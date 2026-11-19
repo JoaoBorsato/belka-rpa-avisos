@@ -1,20 +1,20 @@
-2026-11-18 20:32:40-0300 | INFO    | inicio       | ok        | 20261118-203240-532a | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
-2026-11-18 20:32:40-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: cópia local feed
-2026-11-18 20:32:40-0300 | INFO    | feed         | ok        | - | 10 aviso(s) no feed
-2026-11-18 20:32:40-0300 | INFO    | aviso_cap    | ok        | 55880 | Acumulado de Chuva · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Franco da Rocha, Guarulhos, São Paulo · expirado
-2026-11-18 20:32:40-0300 | WARNING | aviso_cap    | pendencia | 55901 | quarentena: XML inválido: no element found: line 1, column 35
-2026-11-18 20:32:40-0300 | WARNING | aviso_cap    | pendencia | 55902 | quarentena: severidade não reconhecida (severity='Unknown', cor='#123456')
-2026-11-18 20:32:40-0300 | INFO    | decisao      | ignorado  | 55903 | Baixa Umidade: nenhum município piloto atingido (codigo_ibge)
-2026-11-18 20:32:40-0300 | INFO    | aviso_cap    | ok        | 55905 | Vendaval · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Franco da Rocha, Guarulhos · proximo
-2026-11-18 20:32:40-0300 | INFO    | decisao      | decisao   | 55906 | urn:oid:2.49.0.0.76.0.2026.55905.1 -> cancelado
-2026-11-18 20:32:40-0300 | INFO    | aviso_cap    | ok        | 55907 | Onda de Calor · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Campinas · proximo
-2026-11-18 20:32:40-0300 | INFO    | decisao      | decisao   | 55908 | urn:oid:2.49.0.0.76.0.2026.55907.1 -> substituido
-2026-11-18 20:32:40-0300 | INFO    | aviso_cap    | ok        | 55908 | Onda de Calor · Perigo -> Prepare-se (severity+cor+titulo) · Campinas · proximo
-2026-11-18 20:32:40-0300 | INFO    | decisao      | ignorado  | 55909 | status Exercise: não é aviso real
-2026-11-18 20:32:40-0300 | WARNING | fonte        | aviso     | CAP 55910 | tentativa 1/3 falhou: FileNotFoundError: cap/55910.xml não encontrado
-2026-11-18 20:32:40-0300 | WARNING | fonte        | aviso     | CAP 55910 | tentativa 2/3 falhou: FileNotFoundError: cap/55910.xml não encontrado
-2026-11-18 20:32:40-0300 | WARNING | fonte        | aviso     | CAP 55910 | tentativa 3/3 falhou: FileNotFoundError: cap/55910.xml não encontrado
-2026-11-18 20:32:40-0300 | WARNING | aviso_cap    | pendencia | 55910 | CAP 55910: 3 tentativas sem sucesso (FileNotFoundError) · nova tentativa na próxima execução
-2026-11-18 20:32:40-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_acima: 5
-2026-11-18 20:32:40-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 0 vigente(s), 1 próximo(s) · 0 município(s) com aviso agora
-2026-11-18 20:32:40-0300 | INFO    | fim          | ok        | 20261118-203240-532a | status SUCESSO_COM_PENDENCIAS · itens {'processado': 5, 'quarentena': 2, 'ignorado': 2, 'falha_download': 1} · 3 pendência(s) · 0.63 s
+2026-11-19 01:28:42-0300 | INFO    | inicio       | ok        | 20261119-012842-5ee9 | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
+2026-11-19 01:28:42-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: cópia local feed
+2026-11-19 01:28:42-0300 | INFO    | feed         | ok        | - | 10 aviso(s) no feed
+2026-11-19 01:28:42-0300 | INFO    | aviso_cap    | ok        | 55880 | Acumulado de Chuva · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Franco da Rocha, Guarulhos, São Paulo · expirado
+2026-11-19 01:28:42-0300 | WARNING | aviso_cap    | pendencia | 55901 | quarentena: XML inválido: no element found: line 1, column 35
+2026-11-19 01:28:42-0300 | WARNING | aviso_cap    | pendencia | 55902 | quarentena: severidade não reconhecida (severity='Unknown', cor='#123456')
+2026-11-19 01:28:42-0300 | INFO    | decisao      | ignorado  | 55903 | Baixa Umidade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:28:42-0300 | INFO    | aviso_cap    | ok        | 55905 | Vendaval · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Franco da Rocha, Guarulhos · proximo
+2026-11-19 01:28:42-0300 | INFO    | decisao      | decisao   | 55906 | urn:oid:2.49.0.0.76.0.2026.55905.1 -> cancelado
+2026-11-19 01:28:42-0300 | INFO    | aviso_cap    | ok        | 55907 | Onda de Calor · Perigo Potencial -> Fique de olho (severity+cor+titulo) · Campinas · proximo
+2026-11-19 01:28:42-0300 | INFO    | decisao      | decisao   | 55908 | urn:oid:2.49.0.0.76.0.2026.55907.1 -> substituido
+2026-11-19 01:28:42-0300 | INFO    | aviso_cap    | ok        | 55908 | Onda de Calor · Perigo -> Prepare-se (severity+cor+titulo) · Campinas · proximo
+2026-11-19 01:28:42-0300 | INFO    | decisao      | ignorado  | 55909 | status Exercise: não é aviso real
+2026-11-19 01:28:42-0300 | WARNING | fonte        | aviso     | CAP 55910 | tentativa 1/3 falhou: FileNotFoundError: cap/55910.xml não encontrado
+2026-11-19 01:28:42-0300 | WARNING | fonte        | aviso     | CAP 55910 | tentativa 2/3 falhou: FileNotFoundError: cap/55910.xml não encontrado
+2026-11-19 01:28:42-0300 | WARNING | fonte        | aviso     | CAP 55910 | tentativa 3/3 falhou: FileNotFoundError: cap/55910.xml não encontrado
+2026-11-19 01:28:42-0300 | WARNING | aviso_cap    | pendencia | 55910 | CAP 55910: 3 tentativas sem sucesso (FileNotFoundError) · nova tentativa na próxima execução
+2026-11-19 01:28:42-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_acima: 5
+2026-11-19 01:28:42-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 0 vigente(s), 1 próximo(s) · 0 município(s) com aviso agora
+2026-11-19 01:28:42-0300 | INFO    | fim          | ok        | 20261119-012842-5ee9 | status SUCESSO_COM_PENDENCIAS · itens {'processado': 5, 'quarentena': 2, 'ignorado': 2, 'falha_download': 1} · 3 pendência(s) · 0.64 s

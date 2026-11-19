@@ -1,9 +1,9 @@
 {
-  "execucao_id": "20261118-203240-532a",
-  "inicio": "2026-11-18T20:32:40-03:00",
+  "execucao_id": "20261119-012842-5ee9",
+  "inicio": "2026-11-19T01:28:42-03:00",
   "referencia_tempo": "2026-11-07T15:00:00-03:00",
   "parametros": {
-    "fonte_local": "/tmp/tmpbjoffmk8/feed",
+    "fonte_local": "/tmp/tmpzgnh9unr/feed",
     "estrito": false
   },
   "feed": {
@@ -45,8 +45,8 @@
     "cancelado": 1,
     "substituido": 1
   },
-  "fim": "2026-11-18T20:32:40-03:00",
-  "duracao_s": 0.63,
+  "fim": "2026-11-19T01:28:42-03:00",
+  "duracao_s": 0.64,
   "status": "SUCESSO_COM_PENDENCIAS",
   "pendencias": [
     "aviso_cap: 55901 quarentena: XML inválido: no element found: line 1, column 35",
@@ -65,5 +65,5 @@
     "decisao": 2,
     "aviso": 3
   },
-  "log": "logs/belka_avisos_20261118-203240-532a.log"
+  "log": "logs/belka_avisos_20261119-012842-5ee9.log"
 }

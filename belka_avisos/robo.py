@@ -178,10 +178,10 @@ def executar(raiz: Path, agora: datetime | None = None, local: Path | None = Non
                             rel["decisoes"][novo_estado] += 1
                             aud.evento("decisao", "decisao", item.rss_id, f"{ref} -> {novo_estado}")
                         elif banco.aviso(ref) is None:
+                            # aviso citado não está na base: já saiu do feed, era de fora da área ou ainda vai chegar
                             banco.guardar_referencia_orfa(ref, aviso.msg_type, aviso.identifier,
                                                           relogio().isoformat(timespec="seconds"))
-                            aud.evento("decisao", "decisao", item.rss_id,
-                                       f"{aviso.msg_type} de {ref}, que ainda não chegou: guardado para aplicar depois")
+                            rel["decisoes"]["referencias_sem_aviso"] += 1
                     if aviso.msg_type == "Cancel":
                         registrar(item, "processado", "cancelamento", aviso.identifier)
                         continue
@@ -236,6 +236,10 @@ def executar(raiz: Path, agora: datetime | None = None, local: Path | None = Non
                 registrar(item, "erro", f"{type(e).__name__}: {e}")
                 aud.evento("aviso_cap", "pendencia", item.rss_id, f"erro inesperado: {type(e).__name__}: {e}")
 
+        if rel["decisoes"]["referencias_sem_aviso"]:
+            aud.evento("decisao", "decisao", None,
+                       f"{rel['decisoes']['referencias_sem_aviso']} cancelamento(s)/atualização(ões) citam avisos que não "
+                       "estão na base (já saíram do feed ou são de fora da área): guardados para aplicar se chegarem")
         if feed_ok:
             banco.definir_controle("ultimo_feed_ok", relogio().isoformat(timespec="seconds"))
         avisos = banco.avisos_ativos()

@@ -1,0 +1,73 @@
+2026-11-19 01:24:11-0300 | INFO    | inicio       | ok        | 20261119-012411-4215 | robô de avisos iniciado · referência 2026-11-19T01:24:11-03:00
+2026-11-19 01:24:11-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: https://apiprevmet3.inmet.gov.br/avisos/rss
+2026-11-19 01:24:13-0300 | INFO    | feed         | ok        | - | 65 aviso(s) no feed
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56320 | Cancel de urn:oid:2.49.0.0.76.0.2026.28649.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56334 | Cancel de urn:oid:2.49.0.0.76.0.2026.28648.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56351 | Cancel de urn:oid:2.49.0.0.76.0.2026.28659.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56353 | Cancel de urn:oid:2.49.0.0.76.0.2026.28650.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56353 | Cancel de urn:oid:2.49.0.0.76.0.2026.28650.2, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:13-0300 | INFO    | decisao      | ignorado  | 56355 | Chuvas Intensas: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56357 | Cancel de urn:oid:2.49.0.0.76.0.2026.28660.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:13-0300 | INFO    | decisao      | ignorado  | 56358 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:13-0300 | INFO    | decisao      | decisao   | 56359 | Cancel de urn:oid:2.49.0.0.76.0.2026.28668.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | ignorado  | 56360 | Chuvas Intensas: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:14-0300 | INFO    | decisao      | decisao   | 56364 | Cancel de urn:oid:2.49.0.0.76.0.2026.28673.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | ignorado  | 56365 | Ventos Costeiros: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:14-0300 | INFO    | decisao      | decisao   | 56368 | Cancel de urn:oid:2.49.0.0.76.0.2026.28674.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | ignorado  | 56371 | Chuvas Intensas: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:14-0300 | INFO    | decisao      | decisao   | 56372 | Cancel de urn:oid:2.49.0.0.76.0.2026.28675.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | decisao   | 56373 | Cancel de urn:oid:2.49.0.0.76.0.2026.28679.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | decisao   | 56374 | Cancel de urn:oid:2.49.0.0.76.0.2026.28678.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | ignorado  | 56375 | Chuvas Intensas: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:14-0300 | INFO    | decisao      | ignorado  | 56376 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:14-0300 | INFO    | decisao      | decisao   | 56377 | Cancel de urn:oid:2.49.0.0.76.0.2026.28677.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:14-0300 | INFO    | decisao      | ignorado  | 56379 | Acumulado de Chuva: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56380 | Cancel de urn:oid:2.49.0.0.76.0.2026.28680.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | aviso_cap    | ok        | 56383 | Tempestade · Perigo Potencial -> Fique de olho (severity+cor) · Campinas, Franco da Rocha, Guarulhos, São Paulo, São Sebastião · expirado
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56384 | Cancel de urn:oid:2.49.0.0.76.0.2026.28684.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56385 | Cancel de urn:oid:2.49.0.0.76.0.2026.28686.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56386 | Cancel de urn:oid:2.49.0.0.76.0.2026.28669.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56386 | Cancel de urn:oid:2.49.0.0.76.0.2026.28669.2, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | decisao      | ignorado  | 56387 | Acumulado de Chuva: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56388 | Cancel de urn:oid:2.49.0.0.76.0.2026.28687.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | decisao      | decisao   | 56391 | Cancel de urn:oid:2.49.0.0.76.0.2026.28690.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:15-0300 | INFO    | aviso_cap    | ok        | 56392 | Tempestade · Perigo Potencial -> Fique de olho (severity+cor) · Campinas, Franco da Rocha, Guarulhos, São Paulo, São Sebastião · expirado
+2026-11-19 01:24:15-0300 | INFO    | decisao      | ignorado  | 56393 | Baixa Umidade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56394 | Cancel de urn:oid:2.49.0.0.76.0.2026.28691.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56400 | Cancel de urn:oid:2.49.0.0.76.0.2026.28694.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56401 | Cancel de urn:oid:2.49.0.0.76.0.2026.28697.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56402 | Cancel de urn:oid:2.49.0.0.76.0.2026.28695.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56403 | Cancel de urn:oid:2.49.0.0.76.0.2026.28696.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | decisao      | ignorado  | 56404 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:16-0300 | INFO    | decisao      | ignorado  | 56405 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56407 | Cancel de urn:oid:2.49.0.0.76.0.2026.28698.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | decisao      | decisao   | 56411 | Cancel de urn:oid:2.49.0.0.76.0.2026.28702.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:16-0300 | INFO    | aviso_cap    | ok        | 56412 | Tempestade · Perigo Potencial -> Fique de olho (severity+cor) · Campinas, Franco da Rocha, Guarulhos, São Paulo, São Sebastião · expirado
+2026-11-19 01:24:16-0300 | INFO    | decisao      | ignorado  | 56413 | Chuvas Intensas: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56414 | Cancel de urn:oid:2.49.0.0.76.0.2026.28703.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56416 | Cancel de urn:oid:2.49.0.0.76.0.2026.28701.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56417 | Cancel de urn:oid:2.49.0.0.76.0.2026.28704.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56421 | Cancel de urn:oid:2.49.0.0.76.0.2026.28707.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | ignorado  | 56422 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:17-0300 | INFO    | decisao      | ignorado  | 56423 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56424 | Cancel de urn:oid:2.49.0.0.76.0.2026.28710.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56426 | Cancel de urn:oid:2.49.0.0.76.0.2026.28708.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | decisao   | 56427 | Cancel de urn:oid:2.49.0.0.76.0.2026.28709.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:17-0300 | INFO    | decisao      | ignorado  | 56430 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:18-0300 | INFO    | decisao      | ignorado  | 56432 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:18-0300 | INFO    | decisao      | ignorado  | 56434 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56435 | Cancel de urn:oid:2.49.0.0.76.0.2026.28713.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56436 | Cancel de urn:oid:2.49.0.0.76.0.2026.28714.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56437 | Cancel de urn:oid:2.49.0.0.76.0.2026.28715.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56439 | Cancel de urn:oid:2.49.0.0.76.0.2026.28717.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56441 | Cancel de urn:oid:2.49.0.0.76.0.2026.28719.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:18-0300 | INFO    | aviso_cap    | ok        | 56443 | Tempestade · Perigo Potencial -> Fique de olho (severity+cor) · Campinas, Franco da Rocha, Guarulhos, São Paulo · expirado
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56444 | Cancel de urn:oid:2.49.0.0.76.0.2026.28723.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:18-0300 | INFO    | decisao      | decisao   | 56445 | Cancel de urn:oid:2.49.0.0.76.0.2026.28721.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:19-0300 | INFO    | decisao      | ignorado  | 56446 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:19-0300 | INFO    | aviso_cap    | ok        | 56447 | Tempestade · Perigo Potencial -> Fique de olho (severity+cor) · Campinas, Franco da Rocha, Guarulhos, São Paulo, São Sebastião · proximo
+2026-11-19 01:24:19-0300 | INFO    | decisao      | decisao   | 56448 | Cancel de urn:oid:2.49.0.0.76.0.2026.28722.1, que ainda não chegou: guardado para aplicar depois
+2026-11-19 01:24:19-0300 | INFO    | decisao      | ignorado  | 56449 | Tempestade: nenhum município piloto atingido (codigo_ibge)
+2026-11-19 01:24:19-0300 | INFO    | comparacao   | decisao   | 2026-11-07 | o robô ainda não tem avisos registrados que cubram esse dia
+2026-11-19 01:24:19-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 0 vigente(s), 1 próximo(s) · 0 município(s) com aviso agora
+2026-11-19 01:24:19-0300 | INFO    | fim          | ok        | 20261119-012411-4215 | status SUCESSO · itens {'processado': 45, 'ignorado': 20} · 0 pendência(s) · 7.46 s

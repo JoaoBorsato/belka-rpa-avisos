@@ -118,12 +118,14 @@ def test_cancelamento_que_chega_antes_do_aviso_original(repo):
     feed = repo / "feed_parcial"
     gravar_feed(feed, [(200, "Vendaval", "Moderate", *DIA, [SP],
                         {"msg_type": "Cancel", "referencias": [identificador(199)]})])
-    rodar(repo, local=feed)
+    r1 = rodar(repo, local=feed)
     gravar_feed(feed, [(199, "Vendaval", "Moderate", *DIA, [SP], {}),
                        (200, "Vendaval", "Moderate", *DIA, [SP], {"msg_type": "Cancel", "referencias": [identificador(199)]})])
     r = rodar(repo, local=feed)
     assert r.status == SUCESSO
     assert consulta(repo, f"SELECT estado FROM avisos WHERE identifier = '{identificador(199)}'")[0][0] == "cancelado"
+    primeira = (repo / r1.relatorio["log"]).read_text(encoding="utf-8")
+    assert primeira.count("citam avisos que não estão na base") == 1
     assert municipio(publicado(repo), SP)["avisos_vigentes"] == []
 
 

@@ -1,9 +1,9 @@
 {
-  "execucao_id": "20261118-203239-08cf",
-  "inicio": "2026-11-18T20:32:39-03:00",
+  "execucao_id": "20261119-012841-ff39",
+  "inicio": "2026-11-19T01:28:41-03:00",
   "referencia_tempo": "2026-11-07T15:00:00-03:00",
   "parametros": {
-    "fonte_local": "/tmp/tmpdgyr2j0h/feed",
+    "fonte_local": "/tmp/tmpkpylztvy/feed",
     "estrito": false
   },
   "feed": {
@@ -38,7 +38,7 @@
     "cancelado": 1,
     "substituido": 1
   },
-  "fim": "2026-11-18T20:32:39-03:00",
+  "fim": "2026-11-19T01:28:41-03:00",
   "duracao_s": 0.0,
   "status": "SUCESSO",
   "pendencias": [],
@@ -50,5 +50,5 @@
     "aviso": 1,
     "decisao": 1
   },
-  "log": "logs/belka_avisos_20261118-203239-08cf.log"
+  "log": "logs/belka_avisos_20261119-012841-ff39.log"
 }

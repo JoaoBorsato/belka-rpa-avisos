@@ -1,6 +1,6 @@
 {
-  "execucao_id": "20261118-203240-41dc",
-  "inicio": "2026-11-18T20:32:40-03:00",
+  "execucao_id": "20261119-012842-ddb0",
+  "inicio": "2026-11-19T01:28:42-03:00",
   "referencia_tempo": "2026-11-07T15:00:00-03:00",
   "parametros": {
     "fonte_local": null,
@@ -16,7 +16,7 @@
   "publicacao": {},
   "notificacoes": {},
   "erro": "feed indisponível e nenhuma leitura anterior para usar: feed INMET: 3 tentativas sem sucesso (ConnectionError)",
-  "fim": "2026-11-18T20:32:41-03:00",
+  "fim": "2026-11-19T01:28:43-03:00",
   "duracao_s": 0.61,
   "status": "FALHA",
   "pendencias": [
@@ -32,5 +32,5 @@
     "aviso": 3,
     "erro": 1
   },
-  "log": "logs/belka_avisos_20261118-203240-41dc.log"
+  "log": "logs/belka_avisos_20261119-012842-ddb0.log"
 }

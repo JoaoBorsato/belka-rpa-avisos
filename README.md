@@ -237,6 +237,21 @@ python demo_cenarios.py      # roda 5 cenários completos e guarda as evidência
 
 A saída completa do pytest está em `evidencias/testes_pytest.txt`.
 
+**Execução contra o feed real do INMET** (`evidencias/execucao_inmet_real.log`, 19/11/2026): 65 avisos lidos em
+7,5 s, status `SUCESSO`. 5 avisos de Tempestade atingiam os municípios piloto (Perigo Potencial → Fique de olho),
+20 foram ignorados por estarem fora da área e os cancelamentos de avisos que já tinham saído do feed foram
+registrados sem quebrar a execução. A comparação saiu como indisponível porque o snapshot da Belka ia até 07/11.
+
+## Documentação em PDF
+
+`docs/Belka_RPA_Documentacao.pdf` reúne processo, BPMN, regras, exceções, logs, integração, testes e a execução
+real. Ele é gerado a partir das evidências, então sempre bate com a última execução. Para colocar os links:
+
+```bash
+pip install reportlab pillow
+python docs/gerar_documentacao.py --github https://github.com/USUARIO/belka-rpa-avisos --video https://youtu.be/XXXX
+```
+
 ## 10. Estrutura
 
 ```
@@ -253,7 +268,7 @@ config/config_avisos.json   regras de negócio e parâmetros
 entrada/belka_mvp.json      snapshot da Belka usado na comparação (vem do pipeline de dados)
 exemplos/                   feed de exemplo no formato do INMET e o script que o monta
 tests/                      51 testes automatizados
-docs/                       BPMN (.bpmn, .png, .svg) e gerador
+docs/                       BPMN (.bpmn, .png, .svg), documentação em PDF e os geradores
 evidencias/                 logs, relatórios e saídas dos cenários
 agendamento/                DAG do Airflow (opcional)
 demo_cenarios.py            demonstração dos 5 cenários

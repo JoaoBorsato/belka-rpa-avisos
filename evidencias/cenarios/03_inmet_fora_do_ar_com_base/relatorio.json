@@ -1,6 +1,6 @@
 {
-  "execucao_id": "20261118-203239-f2d7",
-  "inicio": "2026-11-18T20:32:39-03:00",
+  "execucao_id": "20261119-012841-8624",
+  "inicio": "2026-11-19T01:28:41-03:00",
   "referencia_tempo": "2026-11-07T15:00:00-03:00",
   "parametros": {
     "fonte_local": null,
@@ -35,11 +35,11 @@
     "cancelado": 1,
     "substituido": 1
   },
-  "fim": "2026-11-18T20:32:40-03:00",
+  "fim": "2026-11-19T01:28:42-03:00",
   "duracao_s": 0.6,
   "status": "SUCESSO_COM_PENDENCIAS",
   "pendencias": [
-    "feed: - feed INMET: 3 tentativas sem sucesso (ConnectionError) · publicando a partir da base de 2026-11-18T20:32:39-03:00 (fonte marcada como desatualizada)"
+    "feed: - feed INMET: 3 tentativas sem sucesso (ConnectionError) · publicando a partir da base de 2026-11-19T01:28:41-03:00 (fonte marcada como desatualizada)"
   ],
   "avisos_de_qualidade": [
     "fonte: feed INMET tentativa 1/3 falhou: ConnectionError: simulação: apiprevmet3.inmet.gov.br fora do ar",
@@ -53,5 +53,5 @@
     "pendencia": 1,
     "decisao": 1
   },
-  "log": "logs/belka_avisos_20261118-203239-f2d7.log"
+  "log": "logs/belka_avisos_20261119-012841-8624.log"
 }

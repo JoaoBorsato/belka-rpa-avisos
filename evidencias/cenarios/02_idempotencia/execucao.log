@@ -1,8 +1,8 @@
-2026-11-18 20:32:39-0300 | INFO    | inicio       | ok        | 20261118-203239-08cf | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
-2026-11-18 20:32:39-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: cópia local feed
-2026-11-18 20:32:39-0300 | INFO    | feed         | ok        | - | 10 aviso(s) no feed
-2026-11-18 20:32:39-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_abaixo: 1, concorda: 4
-2026-11-18 20:32:39-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 2 vigente(s), 2 próximo(s) · 5 município(s) com aviso agora
-2026-11-18 20:32:39-0300 | WARNING | divergencia  | aviso     | São Sebastião | Belka Fique de olho x INMET Prepare-se em 2026-11-07: revisar limiares
-2026-11-18 20:32:39-0300 | INFO    | notificacao  | decisao   | urn:oid:2.49.0.0.76.0.2026.55910.1 | aviso grave sem canal configurado: Belka · aviso oficial Grande Perigo (Acumulado de Chuva) em São Sebastião: 2026-11-09T00:00:00-03:00 a 2026-11-10T12:00:00-03:00
-2026-11-18 20:32:39-0300 | INFO    | fim          | ok        | 20261118-203239-08cf | status SUCESSO · itens {'ja_processados': 10} · 0 pendência(s) · 0.0 s
+2026-11-19 01:28:41-0300 | INFO    | inicio       | ok        | 20261119-012841-ff39 | robô de avisos iniciado · referência 2026-11-07T15:00:00-03:00
+2026-11-19 01:28:41-0300 | INFO    | config       | ok        | - | 5 municípios piloto · fonte: cópia local feed
+2026-11-19 01:28:41-0300 | INFO    | feed         | ok        | - | 10 aviso(s) no feed
+2026-11-19 01:28:41-0300 | INFO    | comparacao   | ok        | 2026-11-07 | belka_abaixo: 1, concorda: 4
+2026-11-19 01:28:41-0300 | INFO    | publicacao   | ok        | avisos_oficiais.json | 2 vigente(s), 2 próximo(s) · 5 município(s) com aviso agora
+2026-11-19 01:28:41-0300 | WARNING | divergencia  | aviso     | São Sebastião | Belka Fique de olho x INMET Prepare-se em 2026-11-07: revisar limiares
+2026-11-19 01:28:41-0300 | INFO    | notificacao  | decisao   | urn:oid:2.49.0.0.76.0.2026.55910.1 | aviso grave sem canal configurado: Belka · aviso oficial Grande Perigo (Acumulado de Chuva) em São Sebastião: 2026-11-09T00:00:00-03:00 a 2026-11-10T12:00:00-03:00
+2026-11-19 01:28:41-0300 | INFO    | fim          | ok        | 20261119-012841-ff39 | status SUCESSO · itens {'ja_processados': 10} · 0 pendência(s) · 0.0 s
