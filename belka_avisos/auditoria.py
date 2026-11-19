@@ -13,11 +13,15 @@ import json
 import logging
 import re
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from zoneinfo import ZoneInfo
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
-FUSO = ZoneInfo("America/Sao_Paulo")
+try:
+    FUSO = ZoneInfo("America/Sao_Paulo")
+except ZoneInfoNotFoundError:
+    # Windows não traz a base de fusos (pacote tzdata). Brasília é UTC-3 fixo desde 2019 (sem horário de verão).
+    FUSO = timezone(timedelta(hours=-3), "America/Sao_Paulo")
 
 _MASCARAS = [
     (re.compile(r"(?i)\b(bearer|token|senha|password|api[_-]?key|secret)\b(\s*[:=]\s*|\s+)\S+"), r"\1\2***"),
