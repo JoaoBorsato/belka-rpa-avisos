@@ -247,11 +247,6 @@ registrados sem quebrar a execução. A comparação saiu como indisponível por
 `docs/Belka_RPA_Documentacao.pdf` reúne processo, BPMN, regras, exceções, logs, integração, testes e a execução
 real. Ele é gerado a partir das evidências, então sempre bate com a última execução. Para colocar os links:
 
-```bash
-pip install reportlab pillow
-python docs/gerar_documentacao.py --github https://github.com/USUARIO/belka-rpa-avisos --video https://youtu.be/XXXX
-```
-
 ## 10. Estrutura
 
 ```
